@@ -122,6 +122,30 @@ body{
 }
 @media (max-width: 1200px) {
 
+    .primeira-section-titulo{
+        font-size: 24px;
+    }
+    .primeira-section-paragrafo{
+        font-size: 16px;
+    }
+    .segunda-section-titulo{
+        font-size: 24px;
+    }
+    .segunda-section-paragrafo{
+        font-size: 16px;
+    }
+    .terceira-section-titulo{
+        font-size: 24px;
+    }
+    .terceira-section-paragrafo{
+        font-size: 16px;
+    }
+    .quarta-section-titulo{
+        font-size: 24px;
+    }
+    .quarta-section-paragrafo{
+        font-size: 16px;
+    }
     .remedios{ 
         width: 60%;
     }
