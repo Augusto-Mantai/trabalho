@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --background-color: #DCF2F1;
+    --fonte-color: #0F1035;
+    --fonte-geral: "Oswald", sans-serif;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--fonte-color);
+    font-family: var(--fonte-geral);
+    font-size: 18px;
+    font-weight: 400;
+}
+.container{
+   display: block;
+   height: 100vh;
+}
+.primeira-section{
+    text-align: center;
+}
+.primeira-section-div{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10% 10% 10%;
+    align-items: center
+}
+.primeira-section-titulo{
+    color: #365486;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.primeira-section-paragrafo{
+    padding: 0% 10%;
+    margin-top: 5%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px;
+}
+.remedios{
+    margin-top: 2%;
+    width: 50%;
+}
+.segunda-section{
+    text-align: center;
+}
+.segunda-section-titulo{
+    color: #365486;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.segunda-section-paragrafo{
+    padding: 0% 10%;
+    margin-top: 5%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px;     
+}
+.segunda-section-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 10% 10%;
+    align-items: center;
+}
+.imagem-equipe{
+    margin-top: 5%;
+    width: 50%;
+}
+.terceira-section{
+    text-align: center;
+}
+.terceira-section-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 10% 10%;
+    align-items: center
+}
+.terceira-section-titulo{
+    color: #365486;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.terceira-section-paragrafo{
+    padding: 0% 10%;
+    margin-top: 5%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px
+}
+.imagem-uti{
+    margin-top: 5%;
+    width: 50%;
+}
+.quarta-section{
+    text-align: center;
+}
+.quarta-section-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 10% 10%;
+    align-items: center
+}
+.quarta-section-titulo{
+    color: #365486;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.quarta-section-paragrafo{
+    padding: 0% 10%;
+    margin-top: 5%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px
+}
+.imagem-injeção{
+    margin-top: 5%;
+    width: 50%;
+}
+@media (max-width: 1200px) {
+
+    .remedios{ 
+        width: 60%;
+    }
+    .imagem-equipe{
+        width: 60%;
+    }
+    .imagem-uti{
+        width: 60%;
+    }
+    .imagem-injeção{
+        width: 60%;
+    }
+}
