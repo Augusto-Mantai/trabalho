@@ -85,6 +85,16 @@ body{
     margin-top: 2%;
     width: 50%;
 }
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 10em 0em;
+    background-color: bisque;
+}
+.Video-explicação{
+    width: 80%;
+    align-items: center;
+}
 .segunda-section{
     text-align:first baseline;
 }
@@ -138,13 +148,15 @@ body{
     width: 50%;
 }
 .quarta-section{
-    text-align:first baseline;
+    text-align: start;
 }
 .quarta-section-div{
     display: flex;
     flex-direction: column;
-    margin: 0% 10% 10% 10%;
-    align-items:first baseline;
+    padding: 10% 10%;
+    margin: 0% 0%;
+    align-items: Center;
+    background-color: bisque;
 }
 .quarta-section-titulo{
     color: #365486;
@@ -207,6 +219,10 @@ body{
     font-weight: 400;
     font-size: 24px;
 }
+.imagem-sonda{
+    margin-top: 5%;
+    width: 50%;
+}
 
 @media (max-width: 1200px) {
 
@@ -215,6 +231,9 @@ body{
         margin: 0% 0% 10% 0%;
         font-size: 24px;
         background-color: azure;
+    }
+    .container-banner{
+        margin: 10%;
     }
     .container-divisoria{
         justify-content: center;
@@ -252,16 +271,81 @@ body{
     .quarta-section-paragrafo{
         font-size: 16px;
     }
+    .quinta-section-titulo{
+        font-size: 24px;
+    }
+    .quinta-section-paragrafo{
+        font-size: 16px;
+    }
+    .sexta-section-titulo{
+        font-size: 24px;
+    }
+    .sexta-section-paragrafo{
+        font-size: 16px;
+    }
+    .primeira-section{
+        align-items: center;
+    }
+    .primeira-section-div{
+        display: flex;
+        flex-direction: column;
+        margin: 0% 8%;
+        padding: 50% 0% 0% 0%;
+        align-items:center;
+    }
+    .segunda-section{
+        align-items: center;
+    }
+    .segunda-section-div{
+        display: flex;
+        flex-direction: column;
+        margin: 0% 8%;
+        padding: 20% 0% 0% 0%;
+        align-items:center;
+    }
+    .terceira-section{
+        align-items: center;
+    }
+    .terceira-section-div{
+        display: flex;
+        flex-direction: column;
+        margin: 0% 8%;
+        padding: 20% 0% 0% 0%;
+        align-items:center; 
+    }
+    .quinta-section{
+        align-items: center;
+    }
+    .quinta-section-div{
+        display: flex;
+        flex-direction: column;
+        margin: 0% 8%;
+        padding: 20% 0% 0% 0%;
+        align-items:center;
+    }
+    .sexta-section{
+        align-items: center;
+    }
+    .segunda-section-div{
+        display: flex;
+        flex-direction: column;
+        margin: 0% 8%;
+        padding: 20% 0% 0% 0%;
+        align-items:center;
+    }
     .remedios{ 
-        width: 60%;
+        width: 90%;
     }
     .imagem-equipe{
-        width: 60%;
+        width: 90%;
     }
     .imagem-uti{
-        width: 60%;
+        width: 90%;
     }
     .imagem-injeção{
-        width: 60%;
+        width: 90%;
+    }
+    .imagem-sonda{
+        width: 90%;
     }
 }
