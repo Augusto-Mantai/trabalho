@@ -12,18 +12,61 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+.section-banner{
+    display: block;
+    block-size: 100vh;
+    background-image: url("img/background-ciano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo-banner{
+    display: flex;
+    justify-content: center;
+    padding: 6em 0em 0em 0em;
+    color: black;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.container-divisoria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 28%;
+}
+.container-banner{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: aliceblue;
+    padding: 1% 0%
+}
+.subtitulo-banner{
+    color: #365486;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.paragrafo-banner{
+    padding: 2%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
 .container{
    display: block;
    height: 100vh;
 }
 .primeira-section{
-    text-align: center;
+    text-align:first baseline;
 }
 .primeira-section-div{
     display: flex;
     flex-direction: column;
     margin: 10% 10% 10% 10%;
-    align-items: center
+    align-items:first baseline;
 }
 .primeira-section-titulo{
     color: #365486;
@@ -43,7 +86,7 @@ body{
     width: 50%;
 }
 .segunda-section{
-    text-align: center;
+    text-align:first baseline;
 }
 .segunda-section-titulo{
     color: #365486;
@@ -62,20 +105,20 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0% 10% 10% 10%;
-    align-items: center;
+    align-items:first baseline;
 }
 .imagem-equipe{
     margin-top: 5%;
     width: 50%;
 }
 .terceira-section{
-    text-align: center;
+    text-align:first baseline;
 }
 .terceira-section-div{
     display: flex;
     flex-direction: column;
     margin: 0% 10% 10% 10%;
-    align-items: center
+    align-items:first baseline;
 }
 .terceira-section-titulo{
     color: #365486;
@@ -88,20 +131,20 @@ body{
     margin-top: 5%;
     font-family: var(--fonte-geral);
     font-weight: 400;
-    font-size: 24px
+    font-size: 24px;
 }
 .imagem-uti{
     margin-top: 5%;
     width: 50%;
 }
 .quarta-section{
-    text-align: center;
+    text-align:first baseline;
 }
 .quarta-section-div{
     display: flex;
     flex-direction: column;
     margin: 0% 10% 10% 10%;
-    align-items: center
+    align-items:first baseline;
 }
 .quarta-section-titulo{
     color: #365486;
@@ -114,14 +157,77 @@ body{
     margin-top: 5%;
     font-family: var(--fonte-geral);
     font-weight: 400;
-    font-size: 24px
+    font-size: 24px;
 }
 .imagem-injeção{
     margin-top: 5%;
     width: 50%;
 }
+.quinta-section{
+    text-align: center;
+}
+.quinta-section-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 10% 10%;
+    align-items: first baseline;
+}
+.quinta-section-titulo{
+    color: #365486;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.quinta-section-paragrafo{
+    padding: 0% 10%;
+    margin-top: 5%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px;
+}
+.sexta-section{
+    text-align: center;
+}
+.sexta-section-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 10% 10%;
+    align-items: first baseline;
+}
+.sexta-section-titulo{
+    color: #365486;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.sexta-section-paragrafo{
+    padding: 0% 10%;
+    margin-top: 5%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px;
+}
+
 @media (max-width: 1200px) {
 
+    .titulo-banner{
+        padding: 6% 0% 6% 0%;
+        margin: 0% 0% 10% 0%;
+        font-size: 24px;
+        background-color: azure;
+    }
+    .container-divisoria{
+        justify-content: center;
+        flex-direction: column;
+        gap: 2em;
+        padding: 0% 27%;
+    }
+    .subtitulo-banner{
+        font-size: 24px;
+    }
+    .paragrafo-banner{
+        font-size: 16px;
+    }
     .primeira-section-titulo{
         font-size: 24px;
     }
