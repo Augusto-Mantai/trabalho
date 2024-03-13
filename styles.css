@@ -223,7 +223,70 @@ body{
     margin-top: 5%;
     width: 50%;
 }
-
+.setima-section{
+    text-align: center;
+}
+.setima-section-div{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 10% 10%;
+    align-items: first baseline;
+}
+.setima-section-titulo{
+    color: #365486;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.setima-section-subtitulo{
+    padding: 4% 0% 0% 0%;
+    color: #0a2149;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.tabela-drogas{
+    margin-top: 5%;
+    width: 50%;
+}
+.setima-section-paragrafo{
+    padding: 0% 10%;
+    margin-top: 5%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px;
+}
+.oitava-section{
+    text-align: first baseline;
+}
+.lista-informacoes-drogas{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0% 0% 0%;
+    padding: 2%;
+    align-items: first baseline;
+    background-color: bisque;
+}
+.item-lista{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 10% 10% 10%;
+    align-items: first baseline;
+}
+.lista-subtitulos{
+    padding: 4% 0% 0% 0%;
+    color: #0a2149;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--fonte-geral);
+}
+.lista-paragrafo{
+    padding: 0%;
+    margin-top: 5%;
+    font-family: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 24px;
+}
 @media (max-width: 1200px) {
 
     .titulo-banner{
@@ -233,7 +296,7 @@ body{
         background-color: azure;
     }
     .container-banner{
-        margin: 10%;
+        margin: 6%;
     }
     .container-divisoria{
         justify-content: center;
@@ -281,6 +344,15 @@ body{
         font-size: 24px;
     }
     .sexta-section-paragrafo{
+        font-size: 16px;
+    }
+    .setima-section-titulo{
+        font-size: 24px;
+    }
+    .setima-section-subtitulo{
+        font-size: 16px;
+    }
+    .setima-section-paragrafo{
         font-size: 16px;
     }
     .primeira-section{
@@ -333,6 +405,12 @@ body{
         padding: 20% 0% 0% 0%;
         align-items:center;
     }
+    .lista-subtitulos{
+        font-size: 24px;
+    }
+    .lista-paragrafo{
+        font-size: 16px;
+    }
     .remedios{ 
         width: 90%;
     }
@@ -346,6 +424,9 @@ body{
         width: 90%;
     }
     .imagem-sonda{
+        width: 90%;
+    }
+    .tabela-drogas{
         width: 90%;
     }
 }
